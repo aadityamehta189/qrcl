@@ -1,5 +1,5 @@
 .cards{
-    display: flex;
+    display: flexbox;
 }
 
 .card{
@@ -8,4 +8,13 @@
     border-style: solid;
     border-color: black;
     border-width: 3px;
+    background-color: silver;
+}
+
+.hidden{
+    display: none;
+}
+
+.highlight{
+    background-color: burlywood;
 }
